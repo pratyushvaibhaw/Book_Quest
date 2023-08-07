@@ -43,7 +43,6 @@ class _BookDetailState extends State<BookDetail> {
   SliverAppBar appBar() {
     return SliverAppBar(
       elevation: 10,
-      backgroundColor: Color.fromARGB(255, 211, 162, 0),
       pinned: true,
       floating: true,
       snap: true,
