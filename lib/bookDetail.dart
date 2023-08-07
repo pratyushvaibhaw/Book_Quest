@@ -43,6 +43,7 @@ class _BookDetailState extends State<BookDetail> {
   SliverAppBar appBar() {
     return SliverAppBar(
       elevation: 10,
+      backgroundColor: Color.fromARGB(255, 211, 162, 0),
       pinned: true,
       floating: true,
       snap: true,
@@ -51,7 +52,7 @@ class _BookDetailState extends State<BookDetail> {
       flexibleSpace: FlexibleSpaceBar(
         title: Text(
           widget.selectedBook.bookName,
-          style: TextStyle(fontWeight: FontWeight.w900),
+          style: TextStyle(fontWeight: FontWeight.w900,color: Colors.white),
         ),
         titlePadding: EdgeInsets.symmetric(horizontal: 60, vertical: 10),
         background: Image.asset(
